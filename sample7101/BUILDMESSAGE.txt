@@ -1,0 +1,215 @@
+設定変更により、強制的にすべてリビルドされます...
+構成 P - Debug をビルド中
+ビルドツリーを更新中...
+C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\main.pbi
+C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\P.pbd
+
+2 個のファイルを削除しました。
+ビルドツリーを更新中...
+
+main.c 
+iccarm.exe C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\main.c -o C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --enable_multibytes --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\EWARM07101\arm\INC\c\DLib_Config_Normal.h -Ol
+
+   IAR ANSI C/C++ Compiler V7.10.1.6676/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 4 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+リンク中
+ilinkarm.exe C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\main.o -o C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Exe\c.out --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull --config C:\Program Files (x86)\IAR Systems\EWARM07101\arm\config\linker\ST\stm32f100x6.icf --semihosting --entry __iar_program_start --vfe
+
+   IAR ELF Linker V7.10.1.6676/W32 for ARM
+   Copyright 2007-2014 IAR Systems AB.
+
+    148 bytes of readonly  code memory
+  1 024 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
+
+Link time:   0.02 (CPU)   0.07 (elapsed)
+
+エラーの合計数: 0
+ワーニングの合計数: 0
+構成 P - Debug をビルド中
+ビルドツリーを更新中...
+
+構成は最新です。
+設定変更により、強制的にすべてリビルドされます...
+構成 P - Debug をビルド中
+ビルドツリーを更新中...
+C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\main.o
+C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\main.pbi
+C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Exe\c.out
+C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\P.pbd
+
+4 個のファイルを削除しました。
+ビルドツリーを更新中...
+
+main.c 
+iccarm.exe C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\main.c -o C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --enable_multibytes --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\EWARM07101\arm\INC\c\DLib_Config_Normal.h -Ol
+
+   IAR ANSI C/C++ Compiler V7.10.1.6676/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 4 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+リンク中
+ilinkarm.exe C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\main.o -o C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Exe\c.out --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull --config C:\Program Files (x86)\IAR Systems\EWARM07101\arm\config\linker\ST\stm32f100xB.icf --semihosting --entry __iar_program_start --vfe
+
+   IAR ELF Linker V7.10.1.6676/W32 for ARM
+   Copyright 2007-2014 IAR Systems AB.
+
+    148 bytes of readonly  code memory
+  2 048 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
+
+Link time:   0.02 (CPU)   0.03 (elapsed)
+
+エラーの合計数: 0
+ワーニングの合計数: 0
+構成 P - Debug をビルド中
+ビルドツリーを更新中...
+
+main.c 
+iccarm.exe C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\main.c -o C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --enable_multibytes --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\EWARM07101\arm\INC\c\DLib_Config_Normal.h -Ol
+
+   IAR ANSI C/C++ Compiler V7.10.1.6676/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\main.c(41) : ワーニング[Pe223]: function "delay" declared implicitly
+C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\main.c(57) : ワーニング[Pe111]: statement is unreachable
+ 
+ 180 bytes of CODE memory
+   4 bytes of DATA memory (+ 20 bytes shared)
+
+Errors: none
+Warnings: 2
+
+リンク中
+ilinkarm.exe C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\main.o -o C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Exe\c.out --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull --config C:\Program Files (x86)\IAR Systems\EWARM07101\arm\config\linker\ST\stm32f100xB.icf --semihosting --entry __iar_program_start --vfe
+
+   IAR ELF Linker V7.10.1.6676/W32 for ARM
+   Copyright 2007-2014 IAR Systems AB.
+エラー[Li005]: no definition for "delay" [referenced from C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\main.o]
+
+    402 bytes of readonly  code memory
+     18 bytes of readonly  data memory
+  2 052 bytes of readwrite data memory (+ 20 absolute)
+
+Errors: 1
+Warnings: none
+
+Link time:   0.02 (CPU)   0.02 (elapsed)
+リンカ 実行中のエラー
+
+エラーの合計数: 1
+ワーニングの合計数: 2
+構成 P - Debug をビルド中
+ビルドツリーを更新中...
+
+main.c 
+iccarm.exe C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\main.c -o C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --enable_multibytes --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\EWARM07101\arm\INC\c\DLib_Config_Normal.h -Ol
+
+   IAR ANSI C/C++ Compiler V7.10.1.6676/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\main.c(62) : ワーニング[Pe111]: statement is unreachable
+ 
+ 210 bytes of CODE memory
+   4 bytes of DATA memory (+ 20 bytes shared)
+
+Errors: none
+Warnings: 1
+
+リンク中
+ilinkarm.exe C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\main.o -o C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Exe\c.out --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull --config C:\Program Files (x86)\IAR Systems\EWARM07101\arm\config\linker\ST\stm32f100xB.icf --semihosting --entry __iar_program_start --vfe
+
+   IAR ELF Linker V7.10.1.6676/W32 for ARM
+   Copyright 2007-2014 IAR Systems AB.
+
+    434 bytes of readonly  code memory
+     18 bytes of readonly  data memory
+  2 052 bytes of readwrite data memory (+ 20 absolute)
+
+Errors: none
+Warnings: none
+
+Link time:   0.02 (CPU)   0.02 (elapsed)
+
+エラーの合計数: 0
+ワーニングの合計数: 1
+構成 P - Debug をビルド中
+ビルドツリーを更新中...
+
+構成は最新です。
+構成 P - Debug をビルド中
+ビルドツリーを更新中...
+
+main.c 
+iccarm.exe C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\main.c -o C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --enable_multibytes --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\EWARM07101\arm\INC\c\DLib_Config_Normal.h -Ol
+
+   IAR ANSI C/C++ Compiler V7.10.1.6676/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\main.c(32) : ワーニング[Pe111]: statement is unreachable
+ 
+ 48 bytes of CODE memory
+  4 bytes of DATA memory
+
+Errors: none
+Warnings: 1
+
+リンク中
+ilinkarm.exe C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\main.o -o C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Exe\c.out --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull --config C:\Program Files (x86)\IAR Systems\EWARM07101\arm\config\linker\ST\stm32f100xB.icf --semihosting --entry __iar_program_start --vfe
+
+   IAR ELF Linker V7.10.1.6676/W32 for ARM
+   Copyright 2007-2014 IAR Systems AB.
+
+    242 bytes of readonly  code memory
+     18 bytes of readonly  data memory
+  2 052 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
+
+Link time:   0.03 (CPU)   0.02 (elapsed)
+
+エラーの合計数: 0
+ワーニングの合計数: 1
+構成 P - Debug をビルド中
+ビルドツリーを更新中...
+
+構成は最新です。
+構成 P - Debug をビルド中
+ビルドツリーを更新中...
+
+構成は最新です。
+構成 P - Debug をビルド中
+ビルドツリーを更新中...
+
+構成は最新です。
+構成 P - Debug をビルド中
+ビルドツリーを更新中...
+
+構成は最新です。
+構成 P - Debug をビルド中
+ビルドツリーを更新中...
+
+main.c 
+iccarm.exe C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\main.c -o C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --enable_multibytes --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\EWARM07101\arm\INC\c\DLib_Config_Normal.h -Ol
+
+   IAR ANSI C/C++ Compiler V7.10.1.6676/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+C:\Users\Hiroki.Akaboshi\Documents\Work\GITHUB\test01\sample7101\main.c(34) : ワーニング[Pe111]: statement is unreachable
+ 
+ 72 bytes of CODE memory
+  4 bytes of DATA memory (+ 8 bytes shared)
+
+Errors: none
+Warnings: 1
